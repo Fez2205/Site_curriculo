@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #2F074A;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+}
+
+/* =========
+    HEADER
+    ========*/
+
+header {
+    width: 100%;
+    padding-top: 30px;
+}
+
+header nav ul {
+    width: min(90%, 1000px);
+    min-height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    color: #651cc1;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: #651cc1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    font-family: "Syncopate", Bold;
+}
+
+header nav ul li a:hover {
+    color: #3d087a;
+}
+
+header nav ul li.logo img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    display: block;
+}
+
+/* =========
+    QUEM
+    ========*/
+
+.quem {
+    margin-top: 150px;
+    text-align: center;
+
+    
+}
+
+.quem h1{
+    font-size: 70px;
+    color:#DCB9F4
+}
+
+.quem img{
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+.quem h2{
+    margin-top: 35px;
+    color: #DCB9F4; 
+    font-size: 30px;
+    
+}
+
+.quem p.cargo{
+    color: #DCB9F4;
+    margin-top: 12px;
+    font-size: 24px;
+    font-family: "Syncopate", sans-serif;
+}
+
+.quem nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.quem nav ul li img {
+    width: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.quem p.descricao{ 
+    font-family: "Space Mono", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    height: 700px;
+    padding: 25px 250px;
+    font-weight: bolder;
+}
+
+
+/* =========
+    PROJETOS
+    ========*/
+
+.projetos {
+    margin-top: 100px;
+    text-align: center;
+
+    
+}
+
+.projetos .cial{
+    background-color: #DA7017;
+    
+}
+
+.projetos h1{
+    margin-top: 0%;
+    font-size: 70px;
+    color:#DCB9F4;
+
+}
+
+.projetos h2{
+    margin-top: 100px ;
+    padding-top: 60px;
+    color:#DCB9F4;
+    font-size: 30px;
+
+}
+
+.projetos ul{
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+
+
+}
+
+.projetos ul li img{
+    margin-top: 50px;
+    width: 50%;
+    object-fit: contain;  
+
+    
+}
+
+.projetos .cial img.Cial { 
+
+    width: 60%;
+
+}
+
+.projetos .cial p.descricao{ 
+    font-family: "Space Mono", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    height: 200px;
+    padding: 25px 250px;
+    font-weight: bolder;
+}
+
+.projetos .maria{
+    background-color: #008ECB;
+
+}
+
+.projetos .maria img.maria{
+
+    width: 500px;
+
+    
+}
+
+.projetos .maria p.descricao{ 
+    font-family: "Space Mono", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+
+    font-weight: bolder;
+}
+
+.projetos .maria ul{
+    flex-direction: column;
+    width: 550px;
+    align-items: flex-end;
+    margin: 0%;
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+.conteudo-maria{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 25px 20px
+}
+
+
+/* =========
+    HABILIDADES
+    ========*/
+
+.habilidades {
+    margin-top: 150px;
+    text-align: center;
+
+    
+}
+
+.habilidades h1{
+    font-size: 70px;
+    color:#DCB9F4;
+}
+
+.habilidades h2{
+    margin-top: 60px ;
+    color:#DCB9F4;
+    font-size: 30px;
+
+}
+
+ul.porcem li img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+
+ul.porcem{
+    color: #DCB9F4;
+    width: 650px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 70px;
+    row-gap: 25px;
+    
+    list-style: none;
+
+}
+
+
+ul.porcem li{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.dados-habilidade {
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========
+   CERTIFICADOS
+   ========= */
+
+.certificados {
+    margin-top: 150px;
+    padding: 0 20px 100px;
+    text-align: center;
+    
+}
+
+.certificados h1 {
+    margin-bottom: 60px;
+    color: #DCB9F4;
+    font-size: 70px;
+}
+
+.listac {
+    width: min(90%, 900px);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    
+}
+
+.cert {
+    min-height: 320px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+
+    background-color: #ffffff;
+    border: 3px solid #DCB9F4;
+    border-radius: 18px;
+
+    font-family: "Space Mono", monospace;
+
+}
+
+
+
+.cert > img {
+    width: 180px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.infc h2 {
+    margin-bottom: 12px;
+    color: #651cc1;
+    font-family: "Syncopate", sans-serif;
+    font-size: 20px;
+}
+
+.infc p {
+    margin-bottom: 10px;
+    color: #2F074A;
+    font-size: 16px;
+}
+
+.infc span {
+    color: #6b5275;
+    font-size: 14px;
+}
+
+.infc ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    list-style: none;
+    color: #2F074A;
+    text-align: left;
+
+}
+
+
+
+
+
+/* =========
+    CONTATO
+    ========*/
+    
+.contato {
+    margin-top: 150px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contato h1 {
+    color: #DCB9F4;
+    font-size: 70px;
+}
+
+.contato .subti{
+    max-width: 750px;
+    margin: 0 auto 35px;
+    
+    color: #ffffff;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.contato form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    font-family: "Space Mono", monospace;
+}
+
+.contato form label {
+    margin-top: 10px;
+    color: #DCB9F4;
+    font-weight: bold;
+}
+
+/* =========
+    RODAPE
+    ========*/
+.rodape {
+    background-color: #2F074A;
+    color: #DCB9F4;
+    text-align: center;
+    padding: 30px;
+    font-family: "Space Mono", monospace;
+}
+
+.rodape p {
+    margin: 8px 0;
+}
+
+.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
